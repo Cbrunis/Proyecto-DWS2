@@ -1,0 +1,126 @@
+body{
+	background: #EEE;
+	color: #096;
+	font-size: 16px;
+}
+.contenedor{
+	max-width: 980px;
+	margin:0px auto  0px auto;
+	position: relative;
+}
+a{
+	font-size: 1em;
+}
+a:hover{
+	text-decoration: none;
+}
+ul li{
+	display: inline-block;
+	list-style: none;
+}
+header{
+	background: #444;
+	border-radius: 1em 1em 0 0;
+	box-shadow: -5px 5px rgba(127,127,127,0.6);
+}
+header .logo , .titular , .social{
+	display: inline-block;
+}
+.logo {
+	border-right: solid 1px white;
+	width: 300px;
+}
+.logo img{
+	border-radius: 50%;
+	width: 300px;
+}
+.social ul li a{
+	font-size: 1.8em;
+	color: #FFF;
+	transition : all 0.6s linear;
+}
+.titular .titulo{
+	font-family: 'Crafty Girls', cursive;
+	font-weight: bold;
+	text-shadow : 2px 2px 1px rgba(0,127,255,0.6);
+}
+nav{
+	margin-top:1em;
+	background: white;
+	padding-bottom: 1em;
+	color: #18F ;
+}
+.menu li{
+	padding-left: 1em;
+}
+.menu a{
+	padding: 0.5em 1.5em 0.5em 1.5em;
+	border-radius: 0.5em;
+	background: #0088FF;
+	color: white;
+	font-weight: bold;
+
+}
+.menu a:hover{
+	color: #DDD;
+}
+.contenido h2{
+	font-family: "Arial";
+	font-weight: bold;
+	text-align: center;}
+.imagen{
+	width: 100%;
+}
+.carousel-caption{
+	background: #333;
+	border-radius: 1em;
+	color: white;
+	font-weight: bold;
+	padding: 0;
+	margin:0;
+	font-size: 2em;
+}
+.cred
+{
+	background:#333;
+	color:#EEE;
+	padding:1em 0;
+	text-align:center;
+	width:100%;
+}
+.cred h3
+{
+	font-size:1em;
+	font-weight:normal;
+}
+.cred h3 strong
+{
+	display:block;
+}
+.cred h3 .um:before,footer h3 .um:after
+{
+	content:" - ";
+}
+.ensalada{
+	margin-right: 1em;
+	
+}
+.sushi , .ensalada{
+	display: inline-block;
+	vertical-align: top;
+	padding-left: 1.5em;
+	width: 45%;
+	background: #FFF;
+	border-radius: 0.5em;
+}
+.a{
+	background: #F8F;
+	display: inline-block;
+	vertical-align: top;
+	cursor: pointer;
+}
+.b{
+	text-align: center;
+	display: inline;
+	color:#006CFF;
+}
