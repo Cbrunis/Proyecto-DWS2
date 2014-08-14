@@ -6,6 +6,8 @@
 	<link rel="stylesheet" href="../css/bootstrap.css"/>
 	<link rel="stylesheet" href="../css/main.css"/>
 	<link href='http://fonts.googleapis.com/css?family=Crafty+Girls' rel='stylesheet' type='text/css'>
+    <script src="../js/jquery.js"></script>
+	<script src="../js/bootstrap.js"></script>
 	<link rel="stylesheet" href="../css/style.css"/>
 	<link rel="shortcut icon" type="image/x-icon" href="../images/icono.jpg" />
 	<style>
@@ -69,14 +71,45 @@
 	</div>
 </header>
 
-<nav>
-	<ul class="menu">
-		<li><a href="../index.html">Inicio</a></li>
-		<li><a href="menu.html">Menu</a></li>
-		<li><a href="servicios.html">Servicios</a></li>
-		<li><a href="beneficios.html">Promociones</a></li>
-		<li><a href="#">Contactenos</a></li>
-	</ul>
+<nav class="navbar navbar-default navegacion" role="navigation">
+	<!--<ul class="menu hidden-xs">
+		<li><a href="#">Inicio</a></li>
+		<li><a href="pages/menu.html">Menu</a></li>
+		<li><a href="pages/servicios.html">Servicios</a></li>
+		<li><a href="pages/beneficios.html">Promociones</a></li>
+		<li><a href="pages/contactenos.html">Contactenos</a></li>
+	</ul>-->
+    <div class="container-fluid">
+    <div class="navbar-header visble-xs hidden-md hidden-sm hidden-lg">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#menu">
+        <span class="sr-only">Navegacion</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+
+      <h1>
+      <a class="navbar-brand" href="../index.html">
+      UMAMISUSHI     
+      </a>
+      </h1>
+      </div>
+    <div class="collapse navbar-collapse" id="menu">
+      <ul class="nav navbar-nav">
+        <li><a href="menu.html">Menu</a></li>
+        <li><a href="servicios.html">Servicios</a></li>
+        <li><a href="beneficios.html">Promociones</a></li>
+        <li class="active"><a href="#">Contacto</a></li>
+      </ul>
+      <form class="navbar-form navbar-right" role="search">
+        <div class="form-group">
+          <input type="text" class="form-control" placeholder="Buscar">
+        </div>
+        <button type="submit" class="btn btn-default">Buscar</button>
+      </form>
+    </div>
+    </div>
 </nav>
 
 <section class="contenido">
