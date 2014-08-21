@@ -31,7 +31,7 @@ header .logo , .titular , .social{
 	border-right: solid 1px white;
 	width: 300px;
 }
-.logo img{
+.imagen{
 	border-radius: 50%;
 	width: 300px;
 }
@@ -121,17 +121,14 @@ nav{
 	display: inline;
 	color:#006CFF;
 }
-.promociones{
-	font-size: 16px;
-}
 .promocion{
 	text-align: left;
-	color:#FFF;
+	color:#EEE;
 	box-shadow: 0px 0px 6px 3px #777; 
 	display: block;
 	margin-bottom: 2.2em;
 	background: #FFF;
-	height: 200px;
+	height: 300px;
 	overflow: hidden;
 	font-size: 0.5em;
 }
@@ -141,21 +138,20 @@ nav{
 .dia{
 	background:#5F3225;
 	border-radius: 0 1em 1em 0;
-	margin-right: 7em;
-	padding-right: 1.5em;
+	margin-right: 0em;
+	padding: 0.2em 6em 0 0;
 	font-size: 3em;
+	text-align: left;
 
 }
 .detalle{
-	margin-top: -0.4em 0;
+	margin-top: -0.3em;
 	text-align: left;
 	background: #FD4513;
-	padding: 0.9em 3em;
+	padding: 0.5em 3em 1em 0;
 	border-radius: 0 1em 1em 0;
 	font-size: 3.5em;
 }
-.promo, .imagen{
-	display: inline-block;
-	vertical-align: top;
+.cntr{
+	width:100%;
 }
-
